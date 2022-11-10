@@ -1,0 +1,82 @@
+.filters {
+  border-top: 1px solid rgba(164, 162, 162, 0.433);
+  border-bottom: 1px solid rgba(164, 162, 162, 0.436);
+  margin: 20px 0;
+  cursor: pointer;
+  display: flex;
+}
+
+.gender-filter {
+  border: 1px solid rgb(164, 162, 162);
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0 15px 50px;
+  position: relative;
+}
+
+.gender-selector {
+  display: none;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  padding: 10px 100px 10px 5px;
+}
+
+.male-selector, .female-selector {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.male-selector p, .female-selector p {
+  margin-left: 7px;
+}
+
+.gender-filter-text {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.price-filter {
+  border: 1px solid rgb(164, 162, 162);
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0 15px 50px;
+  position: relative;
+}
+
+.price-selector {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  padding: 10px 40px 10px 5px;
+  display: none;
+}
+
+.price-under-fifty-selector, .price-fifty-to-one-hundred-selector {
+  display: flex;
+}
+
+.price-under-fifty-selector p, .price-fifty-to-one-hundred-selector p {
+  width: 90px;
+  font-size: 16px;
+}
+
+.price-under-fifty-selector input, .price-fifty-to-one-hundred-selector input {
+  margin: 0 5px 0 5px;
+}
+
+.shoes-price {
+  color: red;
+}
