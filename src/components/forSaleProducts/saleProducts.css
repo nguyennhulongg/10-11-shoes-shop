@@ -1,0 +1,11 @@
+.sale-products-container {
+  flex-wrap: wrap;
+}
+
+.sale-product {
+  margin: 20px;
+}
+
+.sale-product-price {
+  color: red;
+}

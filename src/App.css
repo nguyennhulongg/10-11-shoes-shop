@@ -1,53 +1,30 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'poppins';
 }
 
-html {
-  height: 1000px;
-}
-
-.link-to-home {
-  display: flex;
-  align-items: center;
-  margin: 0 20px 0 20px;
-}
-
-.logo {
-  height: 30px;
-}
-
-.nav-bar {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.627);
-  display: flex;
-  align-items: center;
+.nav-bar-container {
+  background-color: rgba(0, 0, 0, 0.75);
   height: 50px;
   width: 100%;
-  z-index: 1000;
+  position: fixed;
 }
 
-.nav-bar .nav-items {
-  display: flex;
-}
-
-.nav-bar .nav-items .nav-item {
-  list-style: none;
+.nav-items {
   display: flex;
   align-items: center;
   font-size: 14px;
 }
 
-.nav-bar .nav-items .nav-item a {
-  padding: 20px;
-  text-decoration: none;
+.nav-item {
   color: white;
+  text-decoration: none;
+  padding: 15px;
 }
 
-.nav-bar .nav-items .nav-item a:hover {
-  color: rgba(255, 255, 255, 0.881);
+.page-logo {
+  height: 25px;
+  margin: 16px 30px;
 }
-
-/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,17 @@
+.scroll-to-top-btn {
+  background-color: white;
+  padding: 11px 14px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  translate: 100px;
+  transition: 0.5s;
+}
+
+.scroll-to-top-btn span {
+  color: black;
+}

@@ -1,0 +1,18 @@
+.best-seller-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.best-seller-product {
+  margin: 30px 20px;
+}
+
+.best-seller-product-price {
+  color: green;
+  font-weight: 400;
+}
+
+.best-seller-product-name {
+  font-weight: 500;
+}

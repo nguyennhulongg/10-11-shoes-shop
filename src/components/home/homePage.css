@@ -1,0 +1,33 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page-image {
+  width: 100%;
+  height: auto;
+}
+
+.section-tilte {
+  font-size: 28px !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.product-img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-information {
+  display: flex;
+  justify-content: space-between;
+}
+
